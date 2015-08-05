@@ -62,10 +62,19 @@ html {
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+  color: #ddd;
+}
+
+.sidebar li {
+  margin-top: 20px;
+  line-height: 1.2rem;
 }
 
 /* About section */
+.sidebar-about {
+  margin-bottom: 35px;
+}
+
 .sidebar-about h1 a {
   color: #e04444;
   margin-top: 0;

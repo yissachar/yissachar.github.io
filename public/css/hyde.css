@@ -34,16 +34,6 @@
 html {
   font-family: "Hind", Helvetica, Arial, sans-serif;
 }
-@media (min-width: 48rem) {
-  html {
-    font-size: 16px;
-  }
-}
-@media (min-width: 58rem) {
-  html {
-    font-size: 20px;
-  }
-}
 
 
 /*
@@ -57,6 +47,7 @@ html {
   text-align: center;
   color: rgba(255,255,255,.5);
   background-color: #202020;
+  padding: 5px;
 }
 @media (min-width: 48rem) {
   .sidebar {

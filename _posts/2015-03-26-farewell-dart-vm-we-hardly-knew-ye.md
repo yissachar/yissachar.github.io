@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Farwell Dart VM, We Hardly Knew Ye
+title: Farewell Dart VM, We Hardly Knew Ye
 ---
 
 Today the hopes of ever seeing the Dart VM in Chrome [finally died](http://news.dartlang.org/2015/03/dart-for-entire-web.html).

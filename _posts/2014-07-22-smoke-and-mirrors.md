@@ -268,6 +268,7 @@ After seeing the reduction in generated code size, I hoped to see something simi
 
 ###Conclusion
 This article explored three different approaches to code: static, mirrors, and Smoke codegen. Here is how they stack up:
+<div class="responsive-table">
 <table>
   <th></th>
   <th>Code size</th>
@@ -299,7 +300,7 @@ This article explored three different approaches to code: static, mirrors, and S
     <td>Average</td>
     <td>Slow</td>
   </tr>
-</table>
+</table></div>
 
 When it is possible to use, static code is the clear winner due to the small generated code size and fast performance. However, once reflection is required, static is out and the choice is between Smoke and mirrors. Though Smoke is more complicated to setup than mirrors (due to the use of transformers), it generates smaller Javascript sizes, as well as removing the necessity to specify @MirrorsUsed.
 
